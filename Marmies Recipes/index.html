@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marmies Recipies</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="scrollTop" onclick="scrollToTop()";></div>
+
+<header>
+    <img src="img/logo.png" alt="Marmies Recipes logo" class="logo">
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Recipes</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="food-love">
+    <div class="container">
+    <h1 class="title">Making food with love
+        <span>for the whole family to enjoy</span>
+    </h1>
+    <a href="" class="button button-accent">Recipes</a>
+    </div>
+</section>
+
+<div class="container">
+    <section class="home-about">
+
+        <div class="home-about-textbox">
+            <h1>About the website</h1>
+            <p>Within this website are most of the recipes that I have made for my family. Some of these I got from my Grand-Mom and some from my Mom.
+                I also got some of these from my Mother-in law  and from friends, as well as some of my favorite cook books!
+                I hope that through these recipes you will be able to find new favorite dishes for your family! I've always enjoyed cooking and baking, and
+                it was with love that all of these dishes were made. One thing is for sure, <strong>I always measured everything!</strong> I never wanted to take chances and make mistakes!
+                I put my heart into each of these dishes, and I hope that my family will remember me fondly when making them.
+            </p>
+        </div>
+
+    </section>
+</div>
+
+<section class="featured-recipes">
+<h1>Featured Recipes</h1>
+
+<!--Featured Recipe 01-->
+<figure class="featured-item">
+    <img src="img/sourcream-cookies.jpg" alt="Sourcream Cookies Recipe">
+    <figcaption class=" featured-link">
+       <p> Sourcream Cookies </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+<!--Featured Recipe 02-->
+<figure class="featured-item">
+    <img src="img/pasta-salad.jpg" alt="Pasta Salad Recipe">
+    <figcaption class=" featured-link">
+       <p> Pasta Salad </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+<!--Featured Recipe 03-->
+<figure class="featured-item">
+    <img src="img/sauce.jpg" alt="Sauce Recipe">
+    <figcaption class=" featured-link">
+       <p> Sauce </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+<!--Featured Recipe 04-->
+<figure class="featured-item">
+    <img src="img/meatballs.jpg" alt="Meatball Recipe">
+    <figcaption class=" featured-link">
+       <p> Meatballs </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+<!--Featured Recipe 05-->
+<figure class="featured-item">
+    <img src="img/lasagna.jpg" alt="Lasanga Recipe">
+    <figcaption class=" featured-link">
+       <p> Lasagna </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+<!--Featured Recipe 06-->
+<figure class="featured-item">
+    <img src="img/meatloaf.jpg" alt="Meatloaf Recipe">
+    <figcaption class=" featured-link">
+       <p> Meatloaf </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+<!--Featured Recipe 07-->
+<figure class="featured-item">
+    <img src="img/potato-salad.jpg" alt="Potato Salad Recipe">
+    <figcaption class=" featured-link">
+       <p> Potato Salad </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+<!--Featured Recipe 08-->
+<figure class="featured-item">
+    <img src="img/pound-cake.jpg" alt="Pound Cake Recipe">
+    <figcaption class=" featured-link">
+       <p> Pound Cake </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+<!--Featured Recipe 09-->
+<figure class="featured-item">
+    <img src="img/pot-pie.jpg" alt="Chicken Pot Pie Recipes">
+    <figcaption class=" featured-link">
+       <p> Chicken Pot Pie </p>
+       <a href="" class="button button-accent button-small">View Recipe</a>
+    </figcaption>
+</figure>
+
+
+</section>
+
+<section class="cta">
+    <div class="container">
+        <h1 class="title title-cta">Like what you see?
+            <span>Find more recipes below!</span>
+        </h1>
+        <a href="" class="button button-accent">Recipes</a>
+        </div>
+</section>
+<footer>
+    
+ <div class="col-3" >
+    <p>
+    I want to say thank you for visiting this website! My goal is to spread love and positivity through my food, and even though some of my methods may be considered
+    "old school" I guaranteed if you follow the recipes everything will turn out delicious!</p>
+ </div>
+    <!--Back to top button-->
+
+</footer>
+<script type="text/javascript">
+    window.addEventListener('scroll', function(){
+        var scroll = document.querySelector('.scrollTop');
+        scroll.classList.toggle("active" , window.scrollY > 700);
+    })
+
+    function scrollToTop(){
+        window.scrollTo({
+            top:0,
+            behavior: "smooth"
+        })
+    }
+</script>
+</body>
+
+</html>
